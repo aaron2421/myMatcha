@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul >li{
+    color: #025157;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin: 15px;
+}
+
+.actions{
+    width: 15%;
+}
+
+.actions > a{
+    color: #025157;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#logo{
+    width: 15%;
+    height: 30px;
+}
+
+#btnSub{
+    background-color: #025157;;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 18px;
+}
+
+#btnSub:hover{
+    background-color: #6abf4b;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+main > div{
+    width: 40%;
+    height: 550px;
+    flex-direction: row;
+}
+
+.info > h1{
+    color: #025157;
+    font-size: 57px;
+    font-family: 'Vesper Libre', sans-serif;
+    letter-spacing: -3px;
+    line-height: 63px;
+    margin-left: 15px;
+    width: 50%;
+    height: 310px;
+}
+
+.info > p{
+    color: #46484c;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin: 25px 15px;
+}
+
+.info > div{
+    height: 100px;
+    margin: 0px 15px;
+    padding: 20px 0px;
+}
+
+.info > div > a{
+    background-color: #6abf4b;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: 20px 0px;
+}
+
+.info > div > img{
+    margin-left: 20px;
+}
+
+.details{
+    color: #8b8b8b;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    margin: 16px 0px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.video > img{
+    width: 90%;
+    height: 420px;
+}
+
+.brands > p{
+    color: #4a4a4a;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    margin-top: 20px;
+}
+
+.container-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logos{
+    margin-right: 60px;
+}
+
+/* parte 2 */
+.mi-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 280px;
+    margin-bottom: 200px;
+}
+
+.info-features{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-features > h1{
+    margin-bottom: -15px;
+    color: #025157;
+    font-size: 50px;
+    font-family: 'Vesper Libre', sans-serif;
+}
+
+.info-features p{
+    margin-top: 0px;
+}
+
+.detalles{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.mi-item{
+    text-align: center;
+    padding: 10px;
+}
+
+.img-features{
+    width: 375px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.texto{
+    color: #46484c;
+    font-size: 17px;
+    letter-spacing: -0.4px;
+}
+
+.title{
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin: 20px 0px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools > h1{
+    color: #025157;
+    font-size: 36px;
+    font-family: 'Vesper Libre', sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.tool-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 333px;
+}
+
+.tool-card{
+    border: solid lightgray 1px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height: 310px;
+    padding: 40px 18px;
+    text-align: center;
+}
+
+.tool-card > img{
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.tool-title{
+    color: #343434;
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: -.5px;
+}
+
+.tool-text{
+    color: #7e7e7e;
+    font-size: 13px;
+    margin: 0px 10px;
+}
+
+.client-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.slider{
+    padding: 0px 30px;
+}
+
+.slider > img{
+    width: 310px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.slider > div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 310px;
+    height: 290px;
+    margin-top: -5px;
+    padding: 28px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.slider-title{
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.slider-text{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.slider-details{
+    color: #828282;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+
+.slider > div > a{
+    color: white;
+    background-color: #025157;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.slider > div > a:hover{
+    background-color: #6abf4b;
+}
+
+.ecommerce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+    padding: 0px 15px;
+}
+
+.ecommerce > h1{
+    color: #025157;
+    font-size: 55px;
+    font-family: 'Vesper Libre', sans-serif;
+    letter-spacing: -3px;
+    line-height: 65px;
+    margin-bottom: 8px;
+}
+
+.ecommerce > p{
+    color: #4a4a4a;
+    margin-bottom: 16px;
+}
+
+.ecommerce > a{
+    background-color: #025157;;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 18px;
+    text-decoration: none;
+    width: 172px;
+}
+
+.ecommerce > a:hover{
+    background-color: #6abf4b;
+}
+
+.compare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.compare > h1{
+    color: #025157;
+    font-size: 55px;
+    font-family: 'Vesper Libre', sans-serif;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table{
+    /* border: solid lightgray 1px; */
+    align-content: center;
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    width: 65%;
+    border-radius: 5px;
+}
+
+.table-imagen > img{
+    margin-left: 20px;
+    width: 40px;
+    height: 42px;
+}
+
+.table > div > h1{
+    color: #025157;
+    font-size: 26px;
+    font-family: 'Vesper Libre', sans-serif;
+}
+
+.table > div{
+    border: solid lightgray 1px;
+    height: 80px;
+    padding: 18px 40px;
+}
+
+.table > div > p{
+    color: #4a4a4a;
+    /* margin-top: 10px; */
+    font-size: 13px;
+}
+
+.table-title{
+    font-size: 18px !important;
+}
+
+.table-description{
+    letter-spacing: -0.8px;
+}
+
+.cajas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.cajas > article{
+    width: 640px;
+}
+
+.imagen-cajas > img{
+    width: 640px;
+    height: 300px;
+}
+
+#otros{
+    color: #025157;
+    font-size: 40px;
+    font-family: 'Vesper Libre', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer{
+    margin-top: 100px;
+}
+
